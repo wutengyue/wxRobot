@@ -24,7 +24,7 @@
   ```
   
 * #### 运行相应机器人的py文件
-  运行前，先修改一下机器人程序中的path变量（path：生成的文件放在哪里），Windows系统中路径示例 C:\path\file
+  运行前，先修改一下py文件中path变量（path：生成的文件放在哪里），Windows系统中路径示例 C:\path\file
 
   ```bash
   python3 wxGroupMember.py
