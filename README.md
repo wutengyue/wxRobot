@@ -5,8 +5,11 @@
 
 #### 目前包含3个微信机器人
 * 导出微信群成员
-* 导出微信群消息
+  wxGroupMembers.py
+* 监听微信群消息
+  wxGroupMsgs.py
 * 改微信好友备注
+  wxRemarkName.py
 
 #### 使用
 * #### 确保运行环境是python3.4及以上版本
