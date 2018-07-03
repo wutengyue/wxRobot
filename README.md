@@ -20,10 +20,12 @@
 * #### 确保python安装了wxpy包  
   执行以下命令进行安装，如果提示找不到pip3命令，需要先安装pip3
   ```bash
-
   pip3 install wxpy
-
   ```
+  
+* #### 运行相应机器人的py文件
+  运行前，先修改一下机器人程序中的path变量（path：生成的文件放在哪里），Windows系统中路径示例 C:\path\file
 
-#### 注意
-运行前，先修改一下机器人程序中的path变量（path：生成的文件放在哪里），Windows系统中路径示例 C:\path\file
+  ```bash
+  python3 wxGroupMember.py
+  ```
