@@ -4,7 +4,6 @@
 
 
 #### 目前包含3个微信机器人
-> 后面工作需要的话，会把3个机器人合并成一个，运行一个py文件即可。
 
 * 导出微信群成员
   wxGroupMembers.py
@@ -14,18 +13,24 @@
   wxRemarkName.py
 
 #### 使用
+
+* #### 确保用来当机器人的微信可以登录网页微信
+  打开web微信，如果可以扫码登录，则该微信可以用作机器人
+  
 * #### 确保运行环境是python3.4及以上版本
   MAC打开Terminl，输入'python3'，查看自己的python版本
 
 * #### 确保python安装了wxpy包  
   执行以下命令进行安装，如果提示找不到pip3命令，需要先安装pip3
+  
   ```bash
   pip3 install wxpy
   ```
   
-* #### 运行相应机器人的py文件
-  运行前，先修改一下py文件中path变量（path：生成的文件放在哪里），Windows系统中路径示例 C:\path\file
-
+* #### 确保更改了py文件中path的值
+  path：生成的文件放在哪里，Windows系统中路径示例 C:\path\file
+   
+* #### 运行py文件
   ```bash
   python3 wxGroupMember.py
   ```
