@@ -28,7 +28,7 @@
   ```
   
 * #### 确保更改了py文件中path的值
-  path：生成的文件放在哪里，Windows系统中路径示例 C:\path\file
+  path：生成的文件放在哪里。如果要生成文件，需要打开py文件，更改path，Windows系统的路径示例 C:\path\file
    
 * #### 运行py文件
   ```bash
